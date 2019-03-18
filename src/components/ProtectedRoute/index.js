@@ -7,6 +7,6 @@ export const ProtectedRoute = ({...props}) =>{
     return <Route {...props} />
   } else
   {
-    return <Route {...props} redirect="/login" component={Login} />
+    return <Route redirect="/login" component={Login} />
   }
 };
