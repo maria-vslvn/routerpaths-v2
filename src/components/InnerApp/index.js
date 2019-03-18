@@ -1,4 +1,4 @@
-import "../App.css";
+import "../../assets/css/App.css";
 import * as React from 'react'
 import {Link, Route} from 'react-router-dom'
 import {Article} from '../Article/index'
